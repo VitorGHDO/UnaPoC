@@ -11,6 +11,9 @@ package com.mycompany.poc;
 public class PoC {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Cliente cliente = new Cliente(1, "Arthur", 10 );
+        
+    
+        System.out.println( cliente.getNome());
     }
 }
